@@ -1,0 +1,24 @@
+{
+  "name": "login-with-ssh",
+  "version": "0.1.0",
+  "description": "fully decentralized passwordless authentication",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh",
+    "auth",
+    "password",
+    "passwordless",
+    "login"
+  ],
+  "author": "altitude <salaun.clement@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "dotenv": "^1.2.0",
+    "ssh2": "^0.4.11",
+    "superagent": "^1.4.0"
+  }
+}
